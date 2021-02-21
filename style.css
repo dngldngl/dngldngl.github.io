@@ -17,31 +17,24 @@ li{
 }
 
 .clock{
-  width:500px;
-  height:100px;
   color: var(--text-color);
   font-size:30pt;
   text-align:center;
-  margin:0 auto;
+  margin-block-end: 0;
 }
 .userName{
-  width:500px;
   color: var(--text-color);
-  text-align:center;
-  margin:0 auto;
+  text-align: center;
 }
 .toDo{
-  width:500px;
   color: var(--text-color);
   text-align:center;
-  margin:0 auto;
 }
 .js-toDoList{
-  font-size: 20px;
   width:500px;
+  font-size: 20px;
   color: var(--text-color);
-  text-align:left;
-  margin:0 auto;
+  margin: auto;
 }
 
 .toDoInput{
@@ -78,4 +71,10 @@ li{
 .bgImg3{
   background-image: url('3.jpg');
   background-size: cover;
+}
+
+.weather{
+  color: var(--text-color);
+  text-align: right;
+  margin-right: 100px;
 }
